@@ -1,0 +1,55 @@
+body 
+{
+    margin:0;
+    padding:0;
+}
+
+#first 
+{
+    display: flex;
+    justify-content: center;
+}
+
+#second 
+{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    
+}
+
+#rock
+{
+    background-color:red;
+    padding: 12px;
+    border: 2px groove wheat;
+    font-size: 25px;
+}
+#paper
+{
+    background-color:blue;
+    padding: 12px;
+    border: 2px groove silver;
+    font-size: 25px;
+}
+#scissor
+{
+    background-color:greenyellow;
+    padding: 12px;
+    border: 2px groove goldenrod;
+    font-size: 25px;
+}
+
+#third 
+{
+    display: flex;
+    justify-content: center;
+}
+
+#fourth 
+{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
