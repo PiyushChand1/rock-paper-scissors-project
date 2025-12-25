@@ -1,0 +1,62 @@
+body 
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#rock 
+{   
+    background-color: rgb(255, 47, 0);
+    padding: 15px;
+}
+
+#paper 
+{
+    background-color:blue;
+    padding: 15px;
+}
+
+#scissor
+{
+    background-color: green;
+    padding: 15px;
+}
+
+
+.first 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.second 
+{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    
+}
+
+.third 
+{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+
+.fourth 
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.fifth
+{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
